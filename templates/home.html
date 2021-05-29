@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iris Flower Prediction</title>
+  </head>
+  <body style=background-color:HotPink>
+    <center>
+      <h1>Classify Iris Flower As Setosa, Versicolor or Virginica</h1>
+      <br/>
+      <img src="static/iris.jpg" width=300/>
+      <form action="{{url_for('predict')}}" method="post">
+        <br/>
+        <label><b>Enter Petal Length(Cm)</b></label>
+        <br/>
+        <input name='PetalLength' id='PetalLength', type="text" required="required"/>
+        <br/>
+        <br/>
+        <label><b>Enter Pepal Width(Cm)</b></label>
+        <br/>
+        <input name="PetalWidth" id="PetalWidth" type="text" required="required"/>
+        <br/>
+        <br/>
+        <input type="submit" value="Predict"/>
+        <br/>
+        <br/>
+        <h3>{{prediction_text}}</h3>
+        <br/>
+        <br/>
+        <p>©2021 Pushpit Kumar</p>
+      </form>
+    </center>
+  </body>
+</html>
