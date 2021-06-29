@@ -1,6 +1,6 @@
 # IrisFlowerPredictor
 
-Yes, I know this dataset has been analysed in its entirety over the years but as someone who is new to ML, everyone should get familiar with this dataset. Also, I wanted to create a simple web-app using flask to predict the iris species as a beginner's project. This dataset is particularly handy for newbies because there are very few features present. It is good to explore and play with the data using pandas. It is also good for learning basic visualization techniques such as barplots, histograms, boxplots and many more using matplotlib and seaborn.
+Yes, I know this dataset has been analysed in its entirety over the years, but people who are new to ML should get familiar with this dataset. Also, I wanted to create a simple web-app using flask to predict the iris species as a beginner's project. This dataset is particularly handy for newbies because there are very few features present. It is good to explore and play with the data using pandas. It is also good for learning basic visualization techniques such as barplots, histograms, boxplots and many more using matplotlib and seaborn.
 
 ## Table of Contents
 * Overview/Problem Statement
@@ -54,8 +54,8 @@ Follow the instructions if you want to run the app from your local computer.
 pip install -r requirements.txt
 ```
 ### 6. Building the Web App
-* The web was developed using flask micro web framework which is written in python suitable for small scale projects such as this one. For more information you can check the offical flask website by clicking [here](https://flask.palletsprojects.com/en/2.0.x/)
-* Basic HTML was needed for designing the webpage and to make sure it was responsive to user inputs. 
+* The web-app was developed using flask micro web framework which is written in python, suitable for small scale projects such as this one. For more information you can check the offical flask website by clicking [here](https://flask.palletsprojects.com/en/2.0.x/)
+* Basic HTML was needed for designing the web-app and to make sure it was responsive to user inputs. 
 
 ### 7. Model Deployment on Heroku Platoform
 * You will have to create a account in order to deploy the model. Login to your account and go to the deploy section.
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### 8. App Implementation  
 * Link: [IrisFlowerClassifier](https://irisflowerpredictor99.herokuapp.com/)  
-* The app asks for user to enter the petal length and petalwidth of the flower. Based on these input the flower is classified as setosa, versicolor or virginica. From the data analysis it was found out that sepal characteristics are not good at classifying the flowers. 
+* The app asks for user to enter the petal length and petalwidth of the flower. Based on these inputs, the flower is classified as setosa, versicolor or virginica. From the data analysis it was found out that sepal characteristics are not good at classifying the flowers. 
 
 ![1](https://user-images.githubusercontent.com/83957848/120065868-32342080-c091-11eb-8fd2-62c865986d0f.JPG)
 
